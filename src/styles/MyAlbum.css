@@ -1,0 +1,55 @@
+.album-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.album-item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.album-item input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 10px; /* ✅ Improves spacing */
+    cursor: pointer;
+}
+
+/* ✅ Removed duplicate .delete-button styles */
+.delete-button, .refresh-button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}
+
+.refresh-button {
+    background-color: #3498db;
+}
+
+.refresh-button:hover {
+    background-color: #2980b9;
+}
+
+.refresh-button:disabled {
+    background-color: gray;
+    cursor: not-allowed;
+}
