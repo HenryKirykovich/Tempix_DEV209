@@ -2,19 +2,10 @@ import { initializeApp } from 'firebase/app';
 import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
-// const firebaseConfig = {
-  // apiKey: "AIzaSyDqX52pmPEJkC5QHT9qed6Xdz70drqnWQI",
-  // authDomain: "dev209henry.firebaseapp.com",
-  // projectId: "dev209henry",
-  // storageBucket: "dev209henry.firebasestorage.app",
-  // messagingSenderId: "393685476888",
-  // appId: "1:393685476888:web:e7632432481f30f3a7856d",
-  // measurementId: "G-1SFEY5VDYH"
-// };
-// 
+
 
 const firebaseConfig = {
-  apiKey: "AIzaSyACABK-Fo-w1eCvd0h3-PSoxqt21adMq-E",
+  apiKey: "deleted key",
   authDomain: "registration-f248f.firebaseapp.com",
   projectId: "registration-f248f",
   storageBucket: "registration-f248f.firebasestorage.app",
